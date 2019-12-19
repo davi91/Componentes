@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.HBox?>
+
+
+<fx:root spacing="5.0" type="HBox" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+   <children>
+      <ComboBox fx:id="dayC" prefWidth="150.0" promptText="Dia" />
+      <ComboBox fx:id="monthC" prefWidth="150.0" promptText="Mes" />
+      <ComboBox fx:id="yearC" editable="true" prefWidth="150.0" promptText="Año" />
+   </children>
+</fx:root>
