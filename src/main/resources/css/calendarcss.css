@@ -1,0 +1,37 @@
+#actualDay {
+	
+	-fx-background-color: linear-gradient(to bottom right, white 0%, orange 100%);
+	-fx-border-radius: 10px;
+	-fx-border-style: dashed;
+	-fx-background-radius: 10px;
+	-fx-font-weight: bold;
+	-fx-font-style: normal;
+	-fx-text-fill: black;
+}
+
+.day {
+	
+	-fx-font-style: italic; 
+}
+
+.sunday {
+	
+	-fx-text-fill: red;
+}
+
+#sundayweek {
+	
+	-fx-font-weight: bold;
+	-fx-text-fill: red;
+}
+
+.dayweek {
+	
+	-fx-font-weight: bold;
+}
+
+.month {
+	
+	-fx-font-weight: bold;
+	-fx-font-size: 13pt;
+}
